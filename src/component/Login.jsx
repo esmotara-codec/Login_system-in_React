@@ -51,6 +51,13 @@ const Login = () => {
   return (
     <div className="min-h-screen flex flex-col lg:flex-row items-center justify-center bg-[#407d94] bg-opacity-15 px-4 md:px-10">
       {/* Form Section */}
+      <div>
+        <Link to="/home">
+        <button 
+        type="button"
+        className="bg-blue-700 border border-slate-900 rounded-lg shadow-sm">Back to home
+        </button></Link>
+      </div>
       <div className="bg-gray-200 w-full lg:w-1/2 max-w-lg p-3 md:p-6 mt-8 shadow-md rounded-lg">
         <h4 className="text-2xl md:text-3xl font-bold text-cyan-700 text-center mb-6">
           Welcome to E-ticket
