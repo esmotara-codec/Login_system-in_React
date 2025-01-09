@@ -18,7 +18,7 @@ const Home = () => {
             <a href="#contact" className="text-blue-700 hover:text-blue-600">
               Contact
             </a>
-            <a href="/login" className='text-blue-700 hover:text-blue-600'>Login</a>
+            <a href="/" className='text-blue-700 hover:text-blue-600'>Login</a>
           </nav>
         </div>
       </header>
