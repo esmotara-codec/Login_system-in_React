@@ -51,7 +51,7 @@ const Login = () => {
   return (
     <div className="min-h-screen flex flex-col lg:flex-row items-center justify-center bg-[#407d94] bg-opacity-15 px-4 md:px-10">
       {/* Form Section */}
-      <div>
+      <div className="top-0 right-4 m-10 p-10">
         <Link to="/home">
         <button 
         type="button"

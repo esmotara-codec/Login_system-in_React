@@ -3,6 +3,7 @@ import App from "./App";
 import Login from "./component/Login";
 import Registration from "./component/Registration";
 import Home from "./component/Home";
+import About from "./component/About";
 
 const routes= createBrowserRouter ([
     {
@@ -22,6 +23,10 @@ const routes= createBrowserRouter ([
             {
                 path:"home",
                 element:<Home/>,
+            },
+            {
+                path:"about",
+                element:<About/>,
             },
             
 

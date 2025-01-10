@@ -12,7 +12,7 @@ const Home = () => {
             <a href="#home" className="text-blue-700 hover:text-blue-600">
               Home
             </a>
-            <a href="#about" className="text-blue-700 hover:text-blue-600">
+            <a href="/about" className="text-blue-700 hover:text-blue-600">
               About
             </a>
             <a href="#contact" className="text-blue-700 hover:text-blue-600">
