@@ -1,5 +1,5 @@
 import React from 'react';
-import {NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
     return (
@@ -9,16 +9,18 @@ const Home = () => {
         <div className="container mx-auto px-4 py-4 flex justify-between items-center">
           <h1 className="text-2xl font-bold text-blue-600">My Website</h1>
           <nav className="space-x-4">
-            <a href="#home" className="text-blue-700 hover:text-blue-600">
+            <Link to="home" className="text-blue-700 hover:text-blue-600">
               Home
-            </a>
-            <a href="/about" className="text-blue-700 hover:text-blue-600">
-              About
-            </a>
-            <a href="#contact" className="text-blue-700 hover:text-blue-600">
+            </Link>
+            <Link to="about" className="text-blue-700 hover:text-blue-600">
+              About 
+            </Link>
+            <Link to="contact" className="text-blue-700 hover:text-blue-600">
               Contact
-            </a>
-            <a href="/" className='text-blue-700 hover:text-blue-600'>Login</a>
+            </Link>
+            <Link to="login" className="text-blue-700 hover:text-blue-600">
+              Login
+            </Link>
           </nav>
         </div>
       </header>
@@ -42,15 +44,15 @@ const Home = () => {
         id="about"
         className="container mx-auto px-4 py-12 text-center"
       >
-        <h3 className="text-3xl font-bold mb-4">About Us</h3>
+        <h3 className="text-3xl font-bold mb-40">About Us</h3>
         <p className="text-gray-700">
-          We are dedicated to providing high-quality content and services for
-          our users. Learn more about what we do and how we can help you.
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas porro ex tenetur, praesentium minima facere molestias eveniet
+           sapiente exercitationem voluptatibus magni suscipit at hic vel excepturi distinctio molestiae necessitatibus dolorem?
         </p>
       </section>
 
       {/* Footer */}
-      <footer className="bg-gray-800 text-white py-4">
+      <footer className="bg-gray-800 text-white py-4 mt-40">
         <div className="container mx-auto text-center">
           <p>&copy; 2025 My Website. All rights reserved.</p>
         </div>
