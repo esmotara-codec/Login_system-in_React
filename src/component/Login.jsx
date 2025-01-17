@@ -49,15 +49,32 @@ const Login = () => {
   };
 
   return (
+
+    <>
+     {/* Navigation */}
+          <header className="bg-white shadow">
+            <div className="container mx-auto px-4 py-4 flex justify-between items-center">
+              <h1 className="text-2xl font-bold text-blue-600">My Website</h1>
+              <nav className="space-x-4">
+                <Link to="home" className="text-blue-700 hover:text-blue-600">
+                  Home
+                </Link>
+                <Link to="about" className="text-blue-700 hover:text-blue-600">
+                  About 
+                </Link>
+                <Link to="contact" className="text-blue-700 hover:text-blue-600">
+                  Contact
+                </Link>
+                <Link to="login" className="text-blue-700 hover:text-blue-600">
+                  Login
+                </Link>
+              </nav>
+            </div>
+          </header>
+    
     <div className="min-h-screen flex flex-col lg:flex-row items-center justify-center bg-[#407d94] bg-opacity-15 px-4 md:px-10">
       {/* Form Section */}
-      <div className="top-0 right-4 m-10 p-10">
-        <Link to="/home">
-        <button 
-        type="button"
-        className="bg-blue-700 border border-slate-900 rounded-lg shadow-sm">Back to home
-        </button></Link>
-      </div>
+    
       <div className="bg-gray-200 w-full lg:w-1/2 max-w-lg p-3 md:p-6 mt-8 shadow-md rounded-lg">
         <h4 className="text-2xl md:text-3xl font-bold text-cyan-700 text-center mb-6">
           Welcome to E-ticket
@@ -133,6 +150,8 @@ const Login = () => {
         />
       </div>
     </div>
+
+    </>
   );
 };
 

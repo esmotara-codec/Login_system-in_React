@@ -16,7 +16,8 @@ const routes= createBrowserRouter ([
             {
                 path:"/",
                 element:<Home/>,
-                children:[
+            },
+
             {
                 path:"register",
                 element:<Registration/>,
@@ -31,8 +32,8 @@ const routes= createBrowserRouter ([
                 element:<About/>,
             },
 
-        ]
-    }
+        
+    
             
 
 
