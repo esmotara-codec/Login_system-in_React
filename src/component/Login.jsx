@@ -56,18 +56,16 @@ const Login = () => {
             <div className="container mx-auto px-4 py-4 flex justify-between items-center">
               <h1 className="text-2xl font-bold text-blue-600">My Website</h1>
               <nav className="space-x-4">
-                <Link to="home" className="text-blue-700 hover:text-blue-600">
+                <Link to="/" className="text-blue-700 hover:text-blue-600">
                   Home
                 </Link>
-                <Link to="about" className="text-blue-700 hover:text-blue-600">
+                <Link to="/about" className="text-blue-700 hover:text-blue-600">
                   About 
                 </Link>
                 <Link to="contact" className="text-blue-700 hover:text-blue-600">
                   Contact
                 </Link>
-                <Link to="login" className="text-blue-700 hover:text-blue-600">
-                  Login
-                </Link>
+                
               </nav>
             </div>
           </header>
