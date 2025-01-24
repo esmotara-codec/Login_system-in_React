@@ -50,9 +50,107 @@ const Home = () => {
            sapiente exercitationem voluptatibus magni suscipit at hic vel excepturi distinctio molestiae necessitatibus dolorem?
         </p>
       </section>
+      <footer className="relative bg-gray-900 text-gray-300 py-10 px-5">
+          <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            {/* Services */}
+            <div>
+              <h6 className="text-lg font-semibold text-white mb-4">
+                Services
+              </h6>
+              <ul>
+                <li>
+                  <a href="#" className="hover:text-indigo-500">
+                    Branding
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="hover:text-indigo-500">
+                    Design
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="hover:text-indigo-500">
+                    Marketing
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="hover:text-indigo-500">
+                    Advertisement
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+            {/* Company */}
+            <div>
+              <h6 className="text-lg font-semibold text-white mb-4">Company</h6>
+              <ul>
+                <li>
+                  <a href="#" className="hover:text-indigo-500">
+                    About us
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="hover:text-indigo-500">
+                    Contact
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="hover:text-indigo-500">
+                    Jobs
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="hover:text-indigo-500">
+                    Press kit
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+            {/* Legal */}
+            <div>
+              <h6 className="text-lg font-semibold text-white mb-4">Legal</h6>
+              <ul>
+                <li>
+                  <a href="#" className="hover:text-indigo-500">
+                    Terms of use
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="hover:text-indigo-500">
+                    Privacy policy
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="hover:text-indigo-500">
+                    Cookie policy
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+            {/* Stay Connected */}
+            <div>
+              <h6 className="text-lg font-semibold text-white mb-4">
+                Stay Connected
+              </h6>
+              <form>
+                <input
+                  type="email"
+                  placeholder="Your Email"
+                  className="w-full p-3 rounded bg-gray-800 text-gray-200 border border-gray-600"
+                />
+                <button className="mt-4 w-full p-3 bg-indigo-500 hover:bg-indigo-600 text-white rounded">
+                  Subscribe
+                </button>
+              </form>
+            </div>
+          </div>
+          </footer>
 
       {/* Footer */}
-      <footer className="bg-gray-800 text-white py-4 mt-40">
+      <footer className="bg-gray-800 text-white py-4 ">
         <div className="container mx-auto text-center">
           <p>&copy; 2025 My Website. All rights reserved.</p>
         </div>
