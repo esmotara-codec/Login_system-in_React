@@ -4,6 +4,7 @@ import { EyeInvisibleOutlined, EyeOutlined } from "@ant-design/icons";
 import Lottie from "react-lottie-player";
 import animatedpic from "./../assets/Animation - 1734782439866.json";
 
+
 const Login = () => {
   const [formData, setformData] = useState({
     phone: "",
@@ -123,7 +124,7 @@ const Login = () => {
               type="submit"
               className="w-full bg-[#407d94] text-white py-3 rounded-md font-semibold hover:bg-[#3eb4c2] transition duration-300"
             >
-              Login
+              <Link to="/dashboard">Login</Link>
             </button>
             {/* Footer */}
             <p className="text-center text-sm text-gray-500 mt-6">

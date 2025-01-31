@@ -1,5 +1,6 @@
 import React from "react";
 import { FaHome, FaChartBar, FaCog, FaUser } from "react-icons/fa";
+import { NavLink } from "react-router-dom";
 
 const Dashboard = () => {
   return (
@@ -8,10 +9,10 @@ const Dashboard = () => {
       <aside className="w-64 bg-white shadow-lg min-h-screen px-6 py-8">
         <h2 className="text-2xl font-bold text-blue-600 mb-6">Dashboard</h2>
         <nav className="space-y-4">
-          <NavItem icon={<FaHome />} label="Home" />
-          <NavItem icon={<FaChartBar />} label="Analytics" />
-          <NavItem icon={<FaUser />} label="Profile" />
-          <NavItem icon={<FaCog />} label="Settings" />
+          <NavLink icon={<FaHome />} label="Home" />
+          <NavLink icon={<FaChartBar />} label="Analytics" />
+          <NavLink icon={<FaUser />} label="Profile" />
+          <NavLink icon={<FaCog />} label="Settings" />
         </nav>
       </aside>
 
@@ -25,12 +26,12 @@ const Dashboard = () => {
           </button>
         </header>
 
-        {/* Stats Section */}
+        {/* Stats Section
         <section className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           <StatCard title="Total Sales" value="$12,500" />
           <StatCard title="New Users" value="1,230" />
           <StatCard title="Revenue" value="$8,750" />
-        </section>
+        </section> */}
 
         {/* Recent Activity */}
         <section className="mt-8 bg-white p-6 rounded-lg shadow">
