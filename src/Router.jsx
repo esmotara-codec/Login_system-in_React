@@ -7,6 +7,7 @@ import About from "./component/About";
 import Home from "./component/Home";
 import Login from "./component/Login";
 import Contact from "./component/Contact";
+import Dashboard from "./component/Dashboard";
 
 const routes= createBrowserRouter ([
     {
@@ -36,6 +37,11 @@ const routes= createBrowserRouter ([
                 path:"contact",
                 element:<Contact/>,
             },
+            {
+                path:"dashboard",
+                element:<Dashboard/>,
+            },
+
 
 
         
