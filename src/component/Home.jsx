@@ -57,7 +57,8 @@ const Home = () => {
             </button>
           </div>
           <div>
-            <img src="./../assets/images.jpg" alt="About Us" className="rounded-lg shadow-md"/>
+            {/* <img src="./../assets/images.jpg" alt="About Us" className="rounded-lg shadow-md"/> */}
+            <img src="./../assets/images.jpg" alt="About US" />
             
           </div>
         </div>
