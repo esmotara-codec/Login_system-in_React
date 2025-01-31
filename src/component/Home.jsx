@@ -39,16 +39,28 @@ const Home = () => {
         </button>
       </section>
 
-      {/* About Section */}
-      <section
-        id="about"
-        className="container mx-auto px-4 py-12 text-center"
-      >
-        <h3 className="text-3xl font-bold mb-40">About Us</h3>
-        <p className="text-gray-700">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas porro ex tenetur, praesentium minima facere molestias eveniet
-           sapiente exercitationem voluptatibus magni suscipit at hic vel excepturi distinctio molestiae necessitatibus dolorem?
-        </p>
+       {/* About Section */}
+       <section id="about" className="container mx-auto px-6 py-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+          <div>
+            <h3 className="text-3xl font-bold text-blue-600 mb-4">About Us</h3>
+            <p className="text-gray-700 leading-relaxed">
+              We are a team of passionate creators dedicated to delivering high-quality content and services.
+              Our mission is to provide an engaging platform that fosters creativity, learning, and innovation.
+            </p>
+            <p className="mt-4 text-gray-700 leading-relaxed">
+              Since our inception, we have helped thousands of users discover new opportunities and grow their skills.
+              Join us on this journey and be part of something great!
+            </p>
+            <button className="mt-6 px-6 py-2 bg-blue-600 text-white rounded-full shadow-md hover:bg-blue-700">
+              Learn More
+            </button>
+          </div>
+          <div>
+            <img src="./../assets/images.jpg" alt="About Us" className="rounded-lg shadow-md"/>
+            
+          </div>
+        </div>
       </section>
       <footer className="relative bg-gray-900 text-gray-300 py-10 px-5">
           <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
